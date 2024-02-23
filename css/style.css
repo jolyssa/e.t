@@ -1,4 +1,25 @@
-/******FONTS*******/
+/**********BOX-MODEL, CLEARFIX, CLEAR***********/
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  /* Clear */
+  .clear {
+      clear: both;
+  }
+  
+
+/*************FONTS*****************/
 :root {
     --roboto: "Roboto", sans-serif;
     --space-mono: "Space Mono", monospace;
@@ -13,26 +34,126 @@
     --40px: 2.5rem;
 
 }
+
+/************REPEATED STYLES****************/
+
+
+/*? COLOR-CONTAINER*/
+.color-container {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
+    border-radius: 25px;     
+}
+
 /*****HEADER*****/
 header {
-    font-family: var(--space-mono);
-
+    font: var(--14px) var(--space-mono); 
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 5px 20px 0 20px;
 }
 
-header h1 {
-
+header nav {
+    display: none;
 }
 
+/*Style the navigation menu*/
 header li {
-    display: inline;
-    font-size: var(--14px);
+list-style-type:none;
+border-bottom: 3px solid darkgoldenrod;
+text-align: center;
 }
 
-header li:hover {
-    color: grey;
+header a {
+    margin-top: 23px;
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+header a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+header a:hover {
+    color: #fff8de;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+  }
+
+
+@media (min-width:800px) {
+
+    /*Properties for larger screens*/
+    header .logo {
+        float: left;
+        width: 66.66%;
+    }
+
+    header nav {
+        float: left;
+        width: 33.333%;
+        margin-top: 20px;
+    }
+
+    header li {
+        display: inline;
+        font-size: var(--14px);
+    }
+
+    header li:hover {
+        color: grey;
+
+    }
 }
+
+/*********TODO: CODE FROM MOBILE-FIRST PERSPECTIVE, DO ONE SECTION AT A TIME. *********/
+/*
+eg. 
+.content {
+    background-color: blue
+}
+
+@media (min-width:800px) {
+    /*Properties for larger screens
+
+    .content {
+        float: left;
+        width: 66%;
+
+    }
+}
+*/
+
 
 /*****HOME*****/
+.home {
+    margin-bottom: 100px;
+    padding: 200px 50px;
+}
+
+.home-content{
+    font: 40px var(--space-mono);
+    margin-bottom: 100px;
+    height: 80px;
+    text-align: center;
+    overflow: wrap;
+    }
+
+.home-content h1 {
+    white-space: initial;
+}
 
 #typewriter{
     display: inline-block;
@@ -40,8 +161,6 @@ header li:hover {
     border-right: 0.15em solid #333;
     white-space: nowrap;
     margin: 0;
-    /* font-size: 20px; */
-    /* font-family: 'Courier New', Courier, monospace; */
     animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -63,10 +182,8 @@ header li:hover {
     }
 }
 
-.home {
-    font: var(--40px) var(--space-mono);
-    margin-bottom: 50px;
-    }
+
+
     
 /*****ABOUT US*****/
 .about-us {

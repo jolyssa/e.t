@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elephant Thoughts</title>
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div>
-            <h1>elephant thoughts.</h1>
+    <div class="color-container">
+        <header>
+            <div class="clearfix clear">
+                <div class="logo">
+                    <h1 class="active">elephant thoughts</h1>
+                </div>
+                <nav id="myLinks">
+                    <ul>
+                        <li><a>home</a></li>
+                        <li><a>about</a></li>
+                        <li><a>tutors</a></li>
+                        <li><a>events</a></li>
+                        <li><a>schedule</a></li>
+                        <li><a>socials</a></li>
+                    </ul>
+                </nav>
+                <a 
+                    href="javascript:void(0);" class="icon" onclick="toggleHamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+    
+        <div class="home clearfix clear">
+            <section class="home-content" id="typewriter">
+                <h1></h1>
+            </section>
         </div>
-        <nav>
-            <ul>
-                <li>home</li>
-                <li>about</li>
-                <li>tutors</li>
-                <li>events</li>
-                <li>schedule</li>
-                <li>socials</li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="home" id="typewriter">
-        <h1></h1>
-    </section>
+    </div>
+    
+    
 
     <section class="about-us">
         <div>

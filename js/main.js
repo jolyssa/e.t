@@ -1,3 +1,17 @@
+//Header
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function toggleHamburgerMenu() {
+    let x = document.querySelector('nav');
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+
+//Class Home
+//Typewriter Effect
 const typewriterText = document.querySelector('#typewriter')
 
 const phrases = [
@@ -31,3 +45,4 @@ function erase(){
     }
 
     type()
+
