@@ -1,3 +1,39 @@
+/******FONTS*******/
+:root {
+    --roboto: "Roboto", sans-serif;
+    --space-mono: "Space Mono", monospace;
+    --10px: 0.625rem;
+    --12px: 0.75rem;
+    --14px: 0.875rem;
+    --16px: 1rem;
+    --18px: 1.125rem;
+    --20px: 1.25rem;
+    --22px: 1.375rem;
+    --24px: 1.5rem;
+    --40px: 2.5rem;
+
+}
+/*****HEADER*****/
+header {
+    font-family: var(--space-mono);
+
+}
+
+header h1 {
+
+}
+
+header li {
+    display: inline;
+    font-size: var(--14px);
+}
+
+header li:hover {
+    color: grey;
+}
+
+/*****HOME*****/
+
 #typewriter{
     display: inline-block;
     overflow: hidden;
@@ -25,5 +61,22 @@
     50% {
         border-color: #333;
     }
+}
+
+.home {
+    font: var(--40px) var(--space-mono);
+    margin-bottom: 50px;
+    }
+    
+/*****ABOUT US*****/
+.about-us {
+}
+
+.about-us h2 {
+font-family: var(--space-mono);
+}
+
+.about-us p {
+    font: italic var(--16px) var(--roboto);
 }
 
