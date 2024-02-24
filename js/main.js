@@ -1,3 +1,14 @@
+//Scrolling to One Div to Another
+document.querySelector('#about').addEventListener('click', scroll)
+
+function scroll(){
+    $('html,body').animate({
+        scrollTop: $("#about-us").offset().top},
+        'slow');
+}
+
+
+
 //Header
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function toggleHamburgerMenu() {

@@ -31,18 +31,22 @@
     --20px: 1.25rem;
     --22px: 1.375rem;
     --24px: 1.5rem;
+    --30px: 1.875rem;
     --40px: 2.5rem;
-
+    --80px: 5rem;
 }
 
 /************REPEATED STYLES****************/
+.bold {
+    font-weight: bold;
+}
 
 
 /*? COLOR-CONTAINER*/
 .color-container {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
-    border-radius: 25px;     
+    border-radius: 25px 25px 0 0;     
 }
 
 /*****HEADER*****/
@@ -60,17 +64,16 @@ header nav {
 
 /*Style the navigation menu*/
 header li {
-list-style-type:none;
-border-bottom: 3px solid darkgoldenrod;
-text-align: center;
+    list-style-type: none;
+    text-align: right;
 }
 
 header a {
-    margin-top: 23px;
+    margin-top: var(--22px);
     color: white;
-    padding: 0 15px;
+    padding: 0 var(--16px);
     text-decoration: none;
-    font-size: 30px;
+    font-size: var(--30px);
     display: block;
   }
 
@@ -84,7 +87,8 @@ header a.icon {
 
   /* Add a grey background color on mouse-over */
 header a:hover {
-    color: #fff8de;
+    color: wheat;
+    cursor: pointer;
   }
   
   /* Style the active link (or home/logo) */
@@ -92,19 +96,19 @@ header a:hover {
     color: white;
   }
 
-
 @media (min-width:800px) {
 
     /*Properties for larger screens*/
     header .logo {
         float: left;
-        width: 66.66%;
+        width: 33.333%;
     }
 
     header nav {
+        width: 66.66%;
         float: left;
-        width: 33.333%;
         margin-top: 20px;
+        display: block;
     }
 
     header li {
@@ -112,54 +116,38 @@ header a:hover {
         font-size: var(--14px);
     }
 
-    header li:hover {
-        color: grey;
+    header a.icon {
+        display: none;
+      }
 
-    }
+      header a {
+        display: inline;
+        font-size: var(--20px)
+      }
 }
 
 /*********TODO: CODE FROM MOBILE-FIRST PERSPECTIVE, DO ONE SECTION AT A TIME. *********/
-/*
-eg. 
-.content {
-    background-color: blue
-}
 
-@media (min-width:800px) {
-    /*Properties for larger screens
-
-    .content {
-        float: left;
-        width: 66%;
-
-    }
-}
-*/
 
 
 /*****HOME*****/
 .home {
-    margin-bottom: 100px;
-    padding: 200px 50px;
+    padding: 3.125rem;
+    height: 100vh;
 }
 
-.home-content{
-    font: 40px var(--space-mono);
-    margin-bottom: 100px;
-    height: 80px;
+.home-content {
+    padding-top: 6.25rem;
+    font: var(--40px) var(--space-mono);
     text-align: center;
-    overflow: wrap;
-    }
-
-.home-content h1 {
-    white-space: initial;
+    color: rgba(246, 235, 242, 0.817);
 }
 
 #typewriter{
     display: inline-block;
-    overflow: hidden;
-    border-right: 0.15em solid #333;
-    white-space: nowrap;
+    overflow: wrap;
+    border-right: 0.15em solid rgba(246, 235, 242, 0.817);
+    white-space: initial;
     margin: 0;
     animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -178,22 +166,83 @@ eg.
         border-color: transparent;
     }
     50% {
-        border-color: #333;
+        border-color: rgba(246, 235, 242, 0.817);
     }
 }
 
+@media (min-width:800px) {
 
-
+    /*Properties for larger screens*/
+    .home-content{
+        padding-top: 40px;
+        font-size: 80px;
+    }
+}
     
 /*****ABOUT US*****/
 .about-us {
+    background-color: seashell;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    font-family: var(--space-mono);
 }
 
-.about-us h2 {
-font-family: var(--space-mono);
+/* WHO ARE WE? [...] */
+.about-us-desc-1 {
+    height: 100vh;
+    margin: auto;
+    width: 75%;
+    padding: 10px 10px 0px 10px;
 }
 
-.about-us p {
-    font: italic var(--16px) var(--roboto);
+.about-us-desc-1 h2 {
+    font: bold var(--40px) var(--space-mono);
+    text-transform: uppercase;
+    color: #f8b016;
 }
 
+.about-us-desc-1 .about-us-1 {
+    font:  bold var(--30px) var(--space-mono);
+    line-height: 45px;
+    color: rgb(244, 193, 99);
+    padding-bottom: 2rem;
+}
+
+.about-us-desc-1 p + p {
+    font-family: var(--space-mono);
+    padding-bottom: 40px;
+    border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
+}
+
+.about-us .emoji {
+    font-size: 80px;
+}
+
+/* SMALL PARAGRAPH DESCRIPTIONS UNDERNEATH DOTTED LINE */
+.about-us-2, .about-us-3 {
+    font-size: var(--16px);
+}
+
+.about-us-4, .about-us-5 {
+    font-size: var(--24px);
+}
+
+.about-us-4 a {
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color:white;
+    background: burlywood;
+}
+
+.about-us-4 a:hover {
+    background: rgba(241, 27, 27, 0.13);
+}
+
+.about-us-5 {
+   font-weight: bold;
+}
+
+.about-us img {
+    width: 100%;
+}

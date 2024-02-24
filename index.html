@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elephant Thoughts</title>
+    <title>Elephant Thoughts Mistissini</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,20 +11,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+        <!-------------- Header  ---------------->
+
+        
     <div class="color-container">
         <header>
             <div class="clearfix clear">
                 <div class="logo">
                     <h1 class="active">elephant thoughts</h1>
                 </div>
-                <nav id="myLinks">
+                <nav>
                     <ul>
-                        <li><a>home</a></li>
-                        <li><a>about</a></li>
-                        <li><a>tutors</a></li>
-                        <li><a>events</a></li>
-                        <li><a>schedule</a></li>
-                        <li><a>socials</a></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about-us">about</a></li>
+                        <li><a href="#tutors">tutors</a></li>
+                        <li><a href="#">events</a></li>
+                        <li><a href="#">schedule</a></li>
+                        <li><a href="#">socials</a></li>
                     </ul>
                 </nav>
                 <a 
@@ -34,29 +38,59 @@
             </div>
         </header>
     
-        <div class="home clearfix clear">
+
+        <!-------------- Home  ---------------->
+
+        
+        <div class="home clearfix clear" id="home">
             <section class="home-content" id="typewriter">
                 <h1></h1>
             </section>
         </div>
     </div>
-    
-    
 
-    <section class="about-us">
-        <div>
+
+        <!-------------- About Us  ---------------->
+
+
+    <section class="about-us" id="about-us">
+        <!-- WHO ARE WE? [...] -->
+
+        <div class="about-us-desc-1">
             <h2>Who are we?</h2>
-            <p class="about-us-1">We are tutors committed to help Sec 4 and 5's succeed.</p>
-            <p class="about-us-2">Our goal is to help you with the most challenging subjects: Math and Science</p>
-            <p class="about-us-3">Did you come to school in the middle of the term and are completely lost? No problem. That's why we're here.</p>
-            <p class="about-us-4">What are you waiting for? Join us!</p>
-            <p class="about-us-5">Where? Resource room, third floor. </p>
+            <p class="about-us-1">We are tutors committed to help Sec 4 and 5's succeed in their studies.</p>
+            <p class="emoji"> 👨🏾‍🎓👩🏾‍🎓</p>
+        </div>
+ <!-- SMALL PARAGRAPHS DESCS UNDERNEATH DOTTED LINE -->
+
+        <div class="about-us-desc-2">
+            <p class="about-us-2">Our goal is to help you with the most <span class="bold">challenging</span> subjects: Math ➕➖ and Science🧪🔭</p>
+            <p class="about-us-3">Did you come to school in the middle of the term and are completely lost? <span class="bold">No problem.</span>That's why we're here.</p>
+            <p class="about-us-4">What are you waiting for?</p>
+            <p class="about-us-4"><a>Join us!</a></p>
+            <p class="about-us-5">Where? Resource Room: Third Floor. </p>
         </div>
         <div>
-            <img src="#" alt="#">
+            <img src="/attr/math2.jpg" alt="#">
         </div>
     </section>
     
+    <!-------------- Tutors  ---------------->
+    <section class="tutors" id="tutors">
+        <h2>Meet your tutors!</h2>
+        <div class="tutor">
+            <div class="tutor-img">
+                <img src="#" alt="#">
+            </div>
+            <h4>Name here.</h4>
+            <p>Description of tutor.</p>
+        </div>
+
+
+
+    </section>
+
+    <!-------------- Events  ---------------->
     <section class="events-one">
         <p>No events right now.</p>
         <p>Check again soon.</p>
