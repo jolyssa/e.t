@@ -42,7 +42,9 @@
 }
 
 
-/*****HEADER*****/
+/*************HEADER*****************/
+/*************      *****************/
+
 /*? COLOR-CONTAINER*/
 .color-container {
     background: rgb(238,174,202);
@@ -83,11 +85,12 @@ header a.icon {
     position: absolute;
     right: 0;
     top: 0;
+    padding-right: 7%;
   }
 
-  /* Add a grey background color on mouse-over */
+  /* Add a wheat background color on mouse-over */
 header a:hover {
-    color: wheat;
+    color: rgb(242, 215, 164);
     cursor: pointer;
   }
   
@@ -96,7 +99,9 @@ header a:hover {
     color: white;
   }
 
-@media (min-width:800px) {
+  /*^ HEADER, LARGER SCREENS */
+
+  @media (min-width:800px) {
 
     /*Properties for larger screens*/
     header .logo {
@@ -126,11 +131,11 @@ header a:hover {
       }
 }
 
-/*********TODO: CODE FROM MOBILE-FIRST PERSPECTIVE, DO ONE SECTION AT A TIME. *********/
 
 
+/*************HOME*****************/
+/*************      *****************/
 
-/*****HOME*****/
 .home {
     padding: 3.125rem;
     height: 100vh;
@@ -146,10 +151,9 @@ header a:hover {
 #typewriter{
     display: inline-block;
     overflow: wrap;
-    border-right: 0.15em solid rgba(246, 235, 242, 0.817);
     white-space: initial;
-    margin: 0;
-    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+    margin: 0 auto;
+    animation: typing 3s steps(40, end);
 }
 
 @keyframes typing {
@@ -158,15 +162,6 @@ header a:hover {
     }
     to {
         width: 100;
-    }
-}
-
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: rgba(246, 235, 242, 0.817);
     }
 }
 
