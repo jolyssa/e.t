@@ -18,8 +18,9 @@
       clear: both;
   }
   
+/************REPEATED STYLES****************/
 
-/*************FONTS*****************/
+/*************FONTS & SIZES*****************/
 :root {
     --roboto: "Roboto", sans-serif;
     --space-mono: "Space Mono", monospace;
@@ -36,12 +37,12 @@
     --80px: 5rem;
 }
 
-/************REPEATED STYLES****************/
 .bold {
     font-weight: bold;
 }
 
 
+/*****HEADER*****/
 /*? COLOR-CONTAINER*/
 .color-container {
     background: rgb(238,174,202);
@@ -49,13 +50,12 @@
     border-radius: 25px 25px 0 0;     
 }
 
-/*****HEADER*****/
 header {
-    font: var(--14px) var(--space-mono); 
+    font: var(--12px) var(--space-mono); 
     overflow: hidden;
     position: relative;
     margin: 0;
-    padding: 5px 20px 0 20px;
+    padding: 0.7rem 1.875rem;
 }
 
 header nav {
