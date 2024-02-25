@@ -156,6 +156,7 @@ header a:hover {
     animation: typing 3s steps(40, end);
 }
 
+
 @keyframes typing {
     from {
         width: 0;
@@ -164,6 +165,8 @@ header a:hover {
         width: 100;
     }
 }
+
+  /*^ HOME, LARGER SCREENS */
 
 @media (min-width:800px) {
 
@@ -174,68 +177,89 @@ header a:hover {
     }
 }
     
-/*****ABOUT US*****/
+
+
+
+/*************ABOUT US*****************/
+/*************      *****************/
+
 .about-us {
     background-color: seashell;
     border-radius: 0 0 25px 25px;
-    text-align: center;
     font-family: var(--space-mono);
 }
 
+/* ABOUT US DESC 1 */
 /* WHO ARE WE? [...] */
 .about-us-desc-1 {
-    height: 100vh;
     margin: auto;
     width: 75%;
-    padding: 10px 10px 0px 10px;
+    text-align: center;
+    padding: 2rem 0;
 }
 
-.about-us-desc-1 h2 {
-    font: bold var(--40px) var(--space-mono);
+.about-us-desc-1 h2, .about-us-desc-3 h2 {
+    font: bold italic var(--40px) var(--roboto);
     text-transform: uppercase;
     color: #f8b016;
+    padding-top: 3rem;
 }
 
 .about-us-desc-1 .about-us-1 {
     font:  bold var(--30px) var(--space-mono);
     line-height: 45px;
     color: rgb(244, 193, 99);
-    padding-bottom: 2rem;
 }
 
 .about-us-desc-1 p + p {
     font-family: var(--space-mono);
-    padding-bottom: 40px;
     border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
 }
 
 .about-us .emoji {
     font-size: 80px;
+    padding-bottom: 2rem;
 }
 
+/*todo: FIX EXCESSIVE PADDING ABOVE PARAGRAPHS */
+/* ABOUT US DESC 2 */
 /* SMALL PARAGRAPH DESCRIPTIONS UNDERNEATH DOTTED LINE */
-.about-us-2, .about-us-3 {
-    font-size: var(--16px);
+.about-us-desc-2 {
+    padding-top: 0;
+    margin: 0;
 }
 
-.about-us-4, .about-us-5 {
+.about-us-2, .about-us-3, .about-us-4 {
+    font-size: var(--20px);
+    padding: 0 4rem 1rem 4rem;
+}
+
+.about-us-4 {
+    padding-bottom: 8rem;
+    border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
+}
+
+/* ABOUT US DESC 3 */
+.about-us-desc-3 {
+    padding: 2rem 0 4rem 0;
+}
+
+ .about-us-5, .about-us-5-button {
     font-size: var(--24px);
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
-.about-us-4 a {
+.about-us-5-button a {
     border: 2px solid black;
     padding: 10px 15px;
     border-radius: 10px;
     color:white;
-    background: burlywood;
+    background: #f8b016;
 }
 
-.about-us-4 a:hover {
-    background: rgba(241, 27, 27, 0.13);
-}
-
-.about-us-5 {
-   font-weight: bold;
+.about-us-5-button a:hover {
+    background: rgba(241, 183, 84, 0.482);
 }
 
 .about-us img {
