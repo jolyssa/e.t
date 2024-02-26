@@ -266,3 +266,23 @@ header a:hover {
     width: 100%;
     border-radius: 20px;
 }
+
+/*************TUTORS*****************/
+/*************      *****************/
+.tutors {
+    margin: 4rem 0;
+}
+.tutors h2 {
+    font: bold var(--20px) var(--space-mono);
+    text-transform: uppercase;
+    text-align: center;
+}
+.tutor {
+    float: left;
+    width: 49%;
+    margin: 0 0.1rem;
+}
+
+.tutor-img img {
+    width: 100%;
+}
