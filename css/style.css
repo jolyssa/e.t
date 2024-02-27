@@ -263,23 +263,19 @@ header a:hover {
     background: rgba(241, 183, 84, 0.482);
 }
 
-.about-us img {
-    display: block;
-    margin: 0 auto;
-    padding: 2rem;
-    border: 2px dashed rgb(255, 182, 25);
-    width: 80%;
-}
 /*************TUTORS*****************/
 /*************      *****************/
 .tutors {
     margin: 4rem 0; 
+    font: var(--20px) var(--space-mono)
 }
+
 .tutors h2 {
     font: bold var(--20px) var(--space-mono);
     text-transform: uppercase;
     text-align: center;
 }
+
 .tutor {
     width: 100;
     margin: 2rem;
@@ -288,4 +284,8 @@ header a:hover {
 
 .tutor-img img {
     width: 100%;
+    border-radius: 25px;
+}
+
+.tutor h4 {
 }
