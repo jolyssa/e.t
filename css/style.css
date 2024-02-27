@@ -46,7 +46,7 @@
 /*************      *****************/
 
 /*? COLOR-CONTAINER*/
-.color-container {
+.color-container, .schedule {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
     border-radius: 25px 25px 0 0;     
@@ -179,7 +179,6 @@ header a:hover {
     
 
 
-
 /*************ABOUT US*****************/
 /*************      *****************/
 
@@ -222,7 +221,6 @@ header a:hover {
     padding-bottom: 2rem;
 }
 
-/*todo: FIX EXCESSIVE PADDING ABOVE PARAGRAPHS */
 /* ABOUT US DESC 2 */
 /* SMALL PARAGRAPH DESCRIPTIONS UNDERNEATH DOTTED LINE */
 .about-us-desc-2 {
@@ -263,6 +261,14 @@ header a:hover {
     background: rgba(241, 183, 84, 0.482);
 }
 
+  /*^ ABOUT US, LARGER SCREENS */
+
+  @media (min-width:800px) {
+
+    /* content here */
+}
+
+
 /*************TUTORS*****************/
 /*************      *****************/
 .tutors {
@@ -287,5 +293,12 @@ header a:hover {
     border-radius: 25px;
 }
 
-.tutor h4 {
+/*^ TUTORS, LARGER SCREENS */
+
+@media (min-width:800px) {
+
+    /* content here */
 }
+
+/*************SCHEDULE*****************/
+/*************      *****************/
