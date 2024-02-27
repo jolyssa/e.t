@@ -2,6 +2,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
+    font-family: var(--space-mono);
   }
   
   /* Clear fix hack */
@@ -47,14 +48,14 @@
 /*************      *****************/
 
 /*? COLOR-CONTAINER*/
-.color-container, .schedule {
+.color-container {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
     border-radius: 25px 25px 0 0;     
 }
 
 header {
-    font: var(--12px) var(--space-mono); 
+    font-size: var(--12px); 
     overflow: hidden;
     position: relative;
     margin: 0;
@@ -144,7 +145,7 @@ header a:hover {
 
 .home-content {
     padding-top: 6.25rem;
-    font: var(--40px) var(--space-mono);
+    font-size: var(--40px);
     text-align: center;
     color: rgba(246, 235, 242, 0.817);
 }
@@ -213,7 +214,6 @@ header a:hover {
 }
 
 .about-us-desc-1 p + p {
-    font-family: var(--space-mono);
     border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
 }
 
@@ -251,8 +251,7 @@ header a:hover {
 }
 
 .about-us-5-button a {
-    border: 2px solid black;
-    padding: 10px 15px;
+    padding: 15px;
     border-radius: 10px;
     color:white;
     background: #f8b016;
@@ -279,11 +278,18 @@ header a:hover {
 }
 
 .tutors h2 {
-    font: bold var(--20px) var(--space-mono);
+    font: bold var(--40px) var(--space-mono);
     text-transform: uppercase;
     text-align: center;
 }
 
+.tutors h2, .tutors h3 {
+    color: rgb(244, 193, 99);
+}
+
+.tutors h4 {
+    /* font-size: var(--24px); */
+}
 .tutor {
     width: 100;
     margin: 2rem;
@@ -316,4 +322,23 @@ header a:hover {
     text-align: center;
     text-transform: uppercase;
     line-height: var(--60px);
+}
+
+/*************EVENTS*****************/
+/*************      *****************/
+
+/* here */
+
+
+
+/*************SOCIALS*****************/
+/*************      *****************/
+.socials {
+    color: white;
+    
+}
+.socials h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--40px);
 }
