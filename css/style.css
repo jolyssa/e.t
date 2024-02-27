@@ -187,6 +187,7 @@ header a:hover {
     background-color: seashell;
     border-radius: 0 0 25px 25px;
     font-family: var(--space-mono);
+    padding-bottom: 2rem;
 }
 
 /* ABOUT US DESC 1 */
@@ -263,14 +264,16 @@ header a:hover {
 }
 
 .about-us img {
-    width: 100%;
-    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px dashed rgb(255, 182, 25);
+    width: 80%;
 }
-
 /*************TUTORS*****************/
 /*************      *****************/
 .tutors {
-    margin: 4rem 0;
+    margin: 4rem 0; 
 }
 .tutors h2 {
     font: bold var(--20px) var(--space-mono);
