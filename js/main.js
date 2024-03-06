@@ -11,7 +11,7 @@ function toggleHamburgerMenu() {
 
 
 //Class Home
-//Typewriter Effect
+//Typewriter Effect on Home Section
 const typewriterText = document.querySelector('#typewriter')
 
 const phrases = [
