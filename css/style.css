@@ -435,3 +435,7 @@ header a:hover {
     text-transform: uppercase;
     font-size: var(--40px);
 }
+
+.fa-facebook-square {
+    font-size: 100px;
+}
