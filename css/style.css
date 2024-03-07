@@ -352,8 +352,15 @@ header a:hover {
     border-radius: 20px;
 }
 
+
 /*************EVENTS*****************/
 /*************      *****************/
+
+/*************RAFFLE*****************/
+.raffle img {
+    width: 90%;
+    border-radius: 20px;
+}
 
 .events {
 	margin: 0;
