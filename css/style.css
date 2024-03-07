@@ -314,14 +314,13 @@ header a:hover {
 .schedule {
     color: whitesmoke;
     font-family: var(--space-mono);
-    padding-top: 2rem;
+    padding: 1rem 0;
 }
 
 .schedule h1, .schedule h2 {
-    font-size: var(--40px);
+    font-size: var(--30px);
     text-align: center;
-    text-transform: uppercase;
-    line-height: var(--60px);
+    line-height: var(--40px);
     padding: 0 2rem;
 }
 
@@ -335,8 +334,20 @@ header a:hover {
 
 .schedule h2 {
     margin-top: 10rem;
+    text-align: center;
 }
 
+.schedule-container {
+    margin: 0 1.5rem;
+    border-radius: 20px;
+}
+
+.background-color-container {
+    background: #fa9740;
+    margin: 0;
+    padding: 2rem 0.5rem;
+    border-radius: 20px;
+}
 
 /*************EVENTS*****************/
 /*************      *****************/
