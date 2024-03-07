@@ -488,16 +488,11 @@ margin-bottom: 1rem;
 
 }
 .socials-individual-1 {
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem 2rem 2rem 0;
 }
 
 .socials-individual-2 {
     margin: 2rem 0 2rem 2rem;
-}
-
-.fa-facebook-square {
-    display: square;
-    font-size: 900px;
 }
 
 .socials h3 {
