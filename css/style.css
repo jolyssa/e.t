@@ -25,6 +25,9 @@
 :root {
     --roboto: "Roboto", sans-serif;
     --space-mono: "Space Mono", monospace;
+    --inter: "Inter", sans-serif;
+    --noto-sans: "Noto Sans", sans-serif;
+    --source-code-pro: "Source Code Pro", monospace;
     --10px: 0.625rem;
     --12px: 0.75rem;
     --14px: 0.875rem;
@@ -437,16 +440,71 @@ header a:hover {
 
 /*************SOCIALS*****************/
 /*************      *****************/
+.socials-color-container {
+background: #f78b10;
+padding: 2rem;
+border-radius: 20px;
+margin-bottom: 1rem;
+}
+
 .socials {
-    color: white;
+    color: rgba(245, 245, 245, 0.833);
     
 }
+.socials .h1-h2-container {
+    background: #fda848;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
 .socials h1 {
     text-align: center;
-    text-transform: uppercase;
     font-size: var(--40px);
 }
 
+.socials h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: var(--24px);
+    font-family: var(--noto-sans);
+    font-weight: 400;
+    background: #df8722;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.socials-individual {
+    background: #fda848;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.socials-individual a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.833);
+}
+
+.socials-individual .facebook:hover, .socials-individual .email:hover, .socials-individual a:hover {
+    color: rgba(245, 245, 245, 0.452);
+
+}
+.socials-individual-1 {
+    margin: 2rem 0 2rem 2rem;
+}
+
+.socials-individual-2 {
+    margin: 2rem 0 2rem 2rem;
+}
+
 .fa-facebook-square {
-    font-size: 100px;
+    display: square;
+    font-size: 900px;
+}
+
+.socials h3 {
+    text-align: center;
+    font-size: var(--30px);
+}
+
+.socials span {
+    font-size: var(--20px);
 }
