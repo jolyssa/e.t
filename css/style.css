@@ -284,16 +284,20 @@ header a:hover {
 
 .tutors h2 {
     font: bold var(--40px) var(--space-mono);
-    text-transform: uppercase;
     text-align: center;
+    color: rgb(249, 237, 214);
+    padding: 2rem 0;
 }
 
-.tutors h2, .tutors h3 {
-    color: rgb(244, 193, 99);
+.tutors h3 {
+    color: rgb(250, 226, 182);
+    padding-top: 2rem;
 }
 
 .tutors p {
     font-size: var(--22px);
+    color: white;
+    letter-spacing: 2px;
 }
 
 .tutor {
