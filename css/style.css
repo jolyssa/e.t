@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: var(--space-mono);
+    margin: 0;
   }
   
   /* Clear fix hack */
@@ -446,20 +447,19 @@ header a:hover {
 }
 
 
-
 /*************SOCIALS*****************/
 /*************      *****************/
 .socials-color-container {
 background: #f78b10;
 padding: 2rem;
 border-radius: 20px;
-margin-bottom: 1rem;
 }
 
 .socials {
     color: rgba(245, 245, 245, 0.833);
     
 }
+
 .socials .h1-h2-container {
     background: #fda848;
     border-radius: 20px;
@@ -476,11 +476,12 @@ margin-bottom: 1rem;
     text-align: center;
     font-size: var(--24px);
     font-family: var(--noto-sans);
-    font-weight: 400;
+    font-weight: 500;
     background: #df8722;
     border-radius: 20px;
     padding: 2rem;
 }
+
 .socials-individual {
     background: #fda848;
     border-radius: 20px;
@@ -496,6 +497,7 @@ margin-bottom: 1rem;
     color: rgba(245, 245, 245, 0.452);
 
 }
+
 .socials-individual-1 {
     margin: 2rem 2rem 2rem 0;
 }
