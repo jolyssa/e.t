@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -55,29 +56,44 @@
 
         <!-------------- About Us  ---------------->
 
-
+    
     <section class="about-us" id="about-us">
         <!-- WHO ARE WE? [...] -->
-
+    
         <div class="about-us-desc-1">
-            <h2>Who are we?</h2>
-            <p class="about-us-1">We are tutors committed to help Sec 4 and 5's succeed in their studies.</p>
-            <p class="emoji"> 👨🏾‍🎓👩🏾‍🎓</p>
+            <div class="item" data-aos="fade-down"  data-aos-duration="1000">
+                <h2>Who are we?</h2>
+            </div>
+            <div class="item" data-aos="fade-down"  data-aos-duration="1000">
+                <p class="about-us-1">We are tutors committed to help Sec 4 and 5's succeed in their studies.</p>
+                <p class="emoji"> 👨🏾‍🎓👩🏾‍🎓</p>
+            </div>
         </div>
- <!-- SMALL PARAGRAPHS DESCS UNDERNEATH DOTTED LINE -->
-
+        <!-- SMALL PARAGRAPHS DESCS UNDERNEATH DOTTED LINE -->
+    
         <div class="about-us-desc-2">
-            <p class="about-us-2">Our goal is to help you with the most <span class="bold">challenging</span> subjects: Math ➕➖ and Science🧪🔭</p>
-            <p class="about-us-3">Did you come to school in the middle of the term and are completely lost? <span class="bold">No problem.</span>That's why we're here.</p>
-            <p class="about-us-4"><span class="bold">Where are we located? </span> Resource Room: Third Floor. </p>
+            <div class="item" data-aos="fade-down"  data-aos-duration="1000">
+                <p class="about-us-2">Our goal is to help you with the most <span class="bold">challenging</span> subjects: Math
+                ➕➖ and Science🧪🔭</p>
+            </div>
+            <div class="item" data-aos="fade-down"  data-aos-duration="1000">
+                <p class="about-us-3">Did you come to school in the middle of the term and are completely lost? <span
+                    class="bold">No problem.</span>That's why we're here.</p>
+            </div>
+            <div class="item" data-aos="fade-down"  data-aos-duration="1000">
+                <p class="about-us-4"><span class="bold">Where are we located? </span> Resource Room: Third Floor. </p>
+            </div>
         </div>
-
+    
         <!-- What are you waiting for? Join us. -->
-
+        
         <div class="about-us-desc-3">
-            <h2 class="about-us-5">What are you waiting for?</h2>
-            <p class="about-us-5-button"><a href="#schedule">Join us!</a></p>
-           
+            <div class="item" data-aos="zoom-in" data-aos-duration="1000">
+                <h2 class="about-us-5">What are you waiting for?</h2>
+            </div>
+            <div class="item" data-aos="zoom-out" data-aos-duration="1000">
+                <p class="about-us-5-button"><a href="#schedule">Join us!</a></p>
+            </div>
         </div>
     </section>
     
@@ -183,12 +199,12 @@
                     <h3>Jolyssa</h3>
                     <div class="facebook">
                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                        <span><a href="">Facebook</a></span>
+                        <span><a href="https://www.facebook.com/profile.php?id=61552964511090" target="_blank">Facebook</a></span>
                     </div>
                     
                     <div class="email">
                         <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                        <span><a href="">E-mail</a></span>
+                        <span><a href="mailto:jolyssa.armstrong@gmail.com">E-mail</a></span>
                     </div>
                 </div>
 
@@ -196,20 +212,25 @@
                     <h3>Elvin</h3>
                     <div class="facebook">
                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                        <span><a href="">Facebook</a></span>
+                        <span><a href="https://www.facebook.com/profile.php?id=61552535741428"  target="_blank">Facebook</a></span>
                     </div>
                    
                     <div class="email">
-                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                        <span><a href="">E-mail</a></span>
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true" href="""></i>
+                        <span><a href="mailto:elvin.elephantthoughts@gmail.com">E-mail</a></span>
                     </div>
                 </div>
                 <h3>See you soon and happy studying!</h3>
             </div>
         </section>
     
-    
         <script src="/js/main.js"></script>
+
+        <!-- SCRIPT FOR RUNNING SCROLL ANIMATIONS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     
    
 </body>
