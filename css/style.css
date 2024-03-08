@@ -204,14 +204,13 @@ header a:hover {
 }
 
 .about-us-desc-1 h2, .about-us-desc-3 h2 {
-    font: bold italic var(--40px) var(--roboto);
-    text-transform: uppercase;
+    font: bold var(--40px) var(--space-mono);
     color: #f8b016;
     padding-top: 3rem;
 }
 
 .about-us-desc-1 .about-us-1 {
-    font:  bold var(--30px) var(--space-mono);
+    font:  bold var(--30px) var(--noto-sans);
     line-height: 45px;
     color: rgb(244, 193, 99);
 }
@@ -239,13 +238,14 @@ header a:hover {
 
 .about-us-4 {
     padding-bottom: 8rem;
-    border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
 }
 
 /* ABOUT US DESC 3 */
 .about-us-desc-3 {
     padding: 2rem 0 4rem 0;
+    border-bottom: 2px solid orange;
 }
+
 
  .about-us-5, .about-us-5-button {
     font-size: var(--24px);
@@ -277,7 +277,8 @@ header a:hover {
 /*************      *****************/
 .tutors {
     margin: 4rem 0; 
-    font: var(--20px) var(--space-mono)
+    font: var(--20px) var(--space-mono);
+    border-bottom: 2px solid orange;
 }
 
 .tutors h2 {
@@ -290,9 +291,10 @@ header a:hover {
     color: rgb(244, 193, 99);
 }
 
-.tutors h4 {
-    /* font-size: var(--24px); */
+.tutors p {
+    font-size: var(--22px);
 }
+
 .tutor {
     width: 100;
     margin: 2rem;
