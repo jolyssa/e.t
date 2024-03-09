@@ -24,11 +24,13 @@
 
 /*************FONTS & SIZES*****************/
 :root {
+    /* Fonts */
     --roboto: "Roboto", sans-serif;
     --space-mono: "Space Mono", monospace;
     --inter: "Inter", sans-serif;
     --noto-sans: "Noto Sans", sans-serif;
     --source-code-pro: "Source Code Pro", monospace;
+    /* Font-Sizes */
     --10px: 0.625rem;
     --12px: 0.75rem;
     --14px: 0.875rem;
@@ -41,6 +43,19 @@
     --40px: 2.5rem;
     --80px: 5rem;
     --60px: 3.75rem;
+    /* Colours */
+    /*?White Background*/
+    --white-bg-h1: #5d5750;
+    --white-bg-h2:
+    --white-bg-h3:
+    --white-bg-h4: 
+    --white-bg-p:
+    /*?Orange Gradient Background*/
+    --orange-bg-h1:
+    --orange-bg-h2: ;
+    --orange-bg-h3: ;
+    --orange-bg-h4: ;
+    --orange-bg-p: ;
 }
 
 .bold {
@@ -330,7 +345,50 @@ header a:hover {
     border-radius: 20px;
 }
 
+.schedule h1 {
+    color: #f8b016;
+    font-size: var(--40px);
+    text-align: center;
+}
 
+.schedule h4 {
+    font-size: var(--18px);
+    color: rgb(117, 111, 101);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.day-of-week {
+    border: 5px solid rgb(245, 183, 69);
+    border-radius: 20px;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.day-of-week span {
+    display: block;
+    font-size: var(--30px);
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+.day-of-week h2 {
+    font-size: var(--30px);
+    color: #5d5750;
+}
+
+.day-of-week h3 {
+    font-size: var(--24px);
+    color: #888077;
+    padding-top: 1rem;
+}
+
+.day-of-week p {
+    font-size: var(--22px);
+    color: #95918b;
+    padding-top: 0.5rem;
+}
 /*************EVENTS*****************/
 /*************      *****************/
 
