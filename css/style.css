@@ -55,7 +55,7 @@
 .color-container {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
-    border-radius: 25px 25px 0 0;     
+    /* border-radius: 25px 25px 0 0;      */
 }
 
 header {
@@ -83,6 +83,7 @@ header a {
     text-decoration: none;
     font-size: var(--30px);
     display: block;
+    transition: ease-in 0.3s;
   }
 
   /* Style the hamburger menu */
@@ -244,7 +245,6 @@ header a:hover {
 /* ABOUT US DESC 3 */
 .about-us-desc-3 {
     padding: 2rem 0 4rem 0;
-    border-bottom: 2px solid orange;
 }
 
 
@@ -260,6 +260,7 @@ header a:hover {
     color:white;
     background: #f8b016;
     text-decoration: none;
+    transition: ease-in 0.3s;
 }
 
 .about-us-5-button a:hover {
@@ -277,7 +278,7 @@ header a:hover {
 /*************TUTORS*****************/
 /*************      *****************/
 .tutors {
-    margin: 4rem 0; 
+    margin-bottom: 4rem; 
     font: var(--20px) var(--space-mono);
     border-bottom: 2px solid orange;
 }
@@ -325,37 +326,7 @@ header a:hover {
     color: whitesmoke;
     font-family: var(--space-mono);
     padding: 1rem 0;
-}
-
-.schedule h1, .schedule h2 {
-    font-size: var(--30px);
-    text-align: center;
-    line-height: var(--40px);
-    padding: 0 2rem;
-}
-
-.schedule img {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 1rem;
-}
-
-.schedule h2 {
-    margin-top: 10rem;
-    text-align: center;
-}
-
-.schedule-container {
     margin: 0 1.5rem;
-    border-radius: 20px;
-}
-
-.background-color-container {
-    background: #fa9740;
-    margin: 0;
-    padding: 2rem 0.5rem;
     border-radius: 20px;
 }
 
@@ -456,7 +427,6 @@ header a:hover {
 .socials-color-container {
 background: #f78b10;
 padding: 2rem;
-border-radius: 20px;
 }
 
 .socials {
@@ -495,6 +465,7 @@ border-radius: 20px;
 .socials-individual a{
     text-decoration: none;
     color: rgba(245, 245, 245, 0.833);
+    transition: ease-in 0.3s;
 }
 
 .socials-individual .facebook:hover, .socials-individual .email:hover, .socials-individual a:hover {
@@ -513,6 +484,7 @@ border-radius: 20px;
 .socials h3 {
     text-align: center;
     font-size: var(--30px);
+    color: white;
 }
 
 .socials span {
