@@ -55,7 +55,7 @@
 .color-container {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(248,176,22,1) 100%);
-    border-radius: 25px 25px 0 0;     
+    /* border-radius: 25px 25px 0 0;      */
 }
 
 header {
@@ -244,7 +244,6 @@ header a:hover {
 /* ABOUT US DESC 3 */
 .about-us-desc-3 {
     padding: 2rem 0 4rem 0;
-    border-bottom: 2px solid orange;
 }
 
 
@@ -277,7 +276,7 @@ header a:hover {
 /*************TUTORS*****************/
 /*************      *****************/
 .tutors {
-    margin: 4rem 0; 
+    margin-bottom: 4rem; 
     font: var(--20px) var(--space-mono);
     border-bottom: 2px solid orange;
 }
