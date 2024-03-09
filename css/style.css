@@ -351,14 +351,6 @@ header a:hover {
     border-radius: 20px;
 }
 
-.background-color-container {
-    background: #fa9740;
-    margin: 0;
-    padding: 2rem 0.5rem;
-    border-radius: 20px;
-}
-
-
 /*************EVENTS*****************/
 /*************      *****************/
 
@@ -512,6 +504,7 @@ border-radius: 20px;
 .socials h3 {
     text-align: center;
     font-size: var(--30px);
+    color: white;
 }
 
 .socials span {
