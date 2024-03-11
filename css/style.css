@@ -292,38 +292,38 @@ header a:hover {
 
 /*************TUTORS*****************/
 /*************      *****************/
-.tutors {
+.tutors, .events-raffle-winner {
     margin-bottom: 4rem; 
     font: var(--20px) var(--space-mono);
     border-bottom: 2px solid orange;
 }
 
-.tutors h2 {
+.tutors h2, .events-raffle-winner h2 {
     font: bold var(--40px) var(--space-mono);
     text-align: center;
     color: rgb(249, 237, 214);
     padding: 2rem 0;
 }
 
-.tutors h3 {
+.tutors h3, .events-raffle-winner h3 {
     color: rgb(250, 226, 182);
     padding-top: 2rem;
 }
 
-.tutors p {
+.tutors p, .events-raffle-winner p {
     font-size: var(--22px);
     color: white;
     letter-spacing: 2px;
 }
 
-.tutor {
+.tutor, .events-raffle-winner {
     width: 100;
     margin: 2rem;
     padding-bottom: 2rem;
     text-align: center;
 }
 
-.tutor-img img {
+.tutor-img img, .events-raffle-winner img{
     width: 100%;
     border-radius: 25px;
 }
@@ -392,92 +392,18 @@ header a:hover {
 /*************EVENTS*****************/
 /*************      *****************/
 
-/*************RAFFLE*****************/
-.raffle img {
+
+/*************EVENTS: RAFFLE*****************/
+
+
+.events-raffle img {
     width: 90%;
     border-radius: 20px;
 }
 
-.events {
-	margin: 0;
-	padding: 0 0 10rem 0;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.events h1 {
-	align-items: left;
-	display: flex;
-	background: #fda848;
-    color: white;
-    padding: 20px;
-	width: 100%;
-	transform: rotate(90deg);
-}
 
-.events p {
-	transition: all 1s ease;
-	width: 15rem;
-	position: block;
-	background: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
-	perspective: 10rem;
-	width: 8rem;
-	z-index: 0;
-	transform: rotate(-15deg);
-}
 
-.events ul {
-	margin: 0;
-	padding: 0;
-	width: 80%;
-}
-
-.events li {
-	position: relative;
-	padding: 13px;
-	transform: rotate(-8deg);
-	width: 76%;
-	background: #f78b10;
-    color: white;
-	display: flex;
-}
-
-.events li:hover {
-	font-size: 22px;
-	color: #f4d7e1;
-}
-
-.events li time {
-	font-size: 20px;
-	position: relative;
-	cursor: pointer;
-	overflow: hidden;
-	padding: 20px;
-	font-size: 20px;
-}
-
-.events li time {
-	position: relative;
-	background: #f78b10;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
-	box-sizing: border-box;
-	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
-	transform: translateX(-76px);
-}
-
-.events li time:hover {
-	transform: translateX(16px);
-	transform: rotate(10deg);
-}
 
 
 /*************SOCIALS*****************/
