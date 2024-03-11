@@ -45,11 +45,11 @@
     --60px: 3.75rem;
     /* Colours */
     /*?White Background*/
-    --white-bg-h1: #5d5750;
-    --white-bg-h2:
-    --white-bg-h3:
-    --white-bg-h4: 
-    --white-bg-p:
+    --white-bg-h1:#f8b016;
+    --white-bg-h2:#5d5750;
+    --white-bg-h3:#888077;
+    --white-bg-h4: rgb(117, 111, 101);
+    --white-bg-p: #95918b;
     /*?Orange Gradient Background*/
     --orange-bg-h1:
     --orange-bg-h2: ;
@@ -60,6 +60,12 @@
 
 .bold {
     font-weight: bold;
+}
+
+.vertical-elipsis {
+    text-align: center;
+    font-size: var(--40px);
+    color: orange;
 }
 
 
@@ -389,6 +395,7 @@ header a:hover {
     color: #95918b;
     padding-top: 0.5rem;
 }
+
 /*************EVENTS*****************/
 /*************      *****************/
 
@@ -401,7 +408,20 @@ header a:hover {
     border-radius: 20px;
 }
 
+/*************EVENTS: UPCOMING EVENTS*****************/
+.upcoming-events h1 {
+    color: var(--white-bg-h1);
+    font-size: var(--40px);
+}
 
+.upcoming-events h3 {
+    color: var(--white-bg-h3);
+    font-size: var(--24px);
+}
+
+.upcoming-events p {
+    color: var(--22px);
+}
 
 
 
