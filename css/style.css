@@ -306,6 +306,9 @@ header a:hover {
 .tutors, .events-raffle-winner {
     margin-bottom: 4rem; 
     font: var(--20px) var(--space-mono);
+}
+
+.tutors{
     border-bottom: 2px solid orange;
 }
 
@@ -411,6 +414,7 @@ header a:hover {
 .events-raffle img {
     width: 90%;
     border-radius: 20px;
+    /* border: 2px solid orange; */
 }
 
 /*************EVENTS: UPCOMING EVENTS*****************/
