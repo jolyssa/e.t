@@ -68,6 +68,11 @@
     color: orange;
 }
 
+#back-button {
+    font-size: 1.5rem;
+    color: orange;
+    padding: 2rem;
+}
 
 /*************HEADER*****************/
 /*************      *****************/
@@ -409,6 +414,9 @@ header a:hover {
 }
 
 /*************EVENTS: UPCOMING EVENTS*****************/
+.upcoming-events img {
+    width: 100%;
+}
 .upcoming-events h1 {
     color: var(--white-bg-h1);
     font-size: var(--40px);
@@ -422,6 +430,7 @@ header a:hover {
 .upcoming-events p {
     color: var(--22px);
 }
+
 
 
 
