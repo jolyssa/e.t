@@ -64,7 +64,7 @@
 
 .vertical-elipsis {
     text-align: center;
-    font-size: var(--40px);
+    font-size: var(--60px);
     color: orange;
 }
 
@@ -407,34 +407,59 @@ header a:hover {
 /*************EVENTS*****************/
 /*************      *****************/
 
+/* All Events */
+.events h1{
+    color: var(--white-bg-h1);
+    font-size: var(--30px);
+    text-align: center;
+}
 
-/*************EVENTS: RAFFLE*****************/
+.events img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
+.events-raffle {
+    padding-bottom: 4rem;
+}
 
 .events-raffle img {
-    width: 90%;
     border-radius: 20px;
-    /* border: 2px solid orange; */
+    border: 2px dashed rgba(233, 78, 78, 0.348);
 }
 
-/*************EVENTS: UPCOMING EVENTS*****************/
-.upcoming-events img {
-    width: 100%;
+.events-raffle h1 {
+    padding-bottom: 2rem;
 }
+
+.events-raffle figcaption {
+    text-align: center;
+    padding-top: 0.5rem;
+    color: var(--white-bg-h4)}
+
+/* Upcoming Events */
 .upcoming-events h1 {
     color: var(--white-bg-h1);
     font-size: var(--40px);
+    padding: 2rem 1rem;
+}
+
+.upcoming-events img {
+    border-radius: 20px;
+    padding-bottom: 4rem;
 }
 
 .upcoming-events h3 {
     color: var(--white-bg-h3);
     font-size: var(--24px);
+    padding-bottom: 0.5rem;
 }
 
 .upcoming-events p {
     color: var(--22px);
 }
-
 
 
 
