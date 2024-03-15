@@ -440,6 +440,11 @@ header a:hover {
     color: var(--white-bg-h4)}
 
 /* Upcoming Events */
+.upcoming-events {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .upcoming-events h1 {
     color: var(--white-bg-h1);
     font-size: var(--40px);
@@ -447,21 +452,37 @@ header a:hover {
 }
 
 .upcoming-events img {
-    border-radius: 20px;
-    padding-bottom: 4rem;
+    border: 6px solid orange;
 }
 
 .upcoming-events h3 {
     color: var(--white-bg-h3);
     font-size: var(--24px);
+    padding-top: 4rem;
     padding-bottom: 0.5rem;
 }
 
 .upcoming-events p {
     color: var(--22px);
+    padding-bottom: 4rem;
 }
 
+.upcoming-events span {
+    display: block;
+    /* text-align: center; */
+    padding-bottom: 3rem;
+}
 
+/* Back to Home */
+.back-to-homepage  {
+    background-color: orange;
+    padding: 1rem 2rem;
+}
+
+.back-to-homepage a {
+    text-decoration: none;
+    color: white;
+}
 
 
 /*************SOCIALS*****************/
