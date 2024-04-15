@@ -409,6 +409,13 @@ header a:hover {
     padding-top: 0.5rem;
 }
 
+.thursday p + p {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 88, 88);
+    
+}
+
 /*************EVENTS*****************/
 /*************      *****************/
 
@@ -464,7 +471,12 @@ header a:hover {
     color: var(--white-bg-h3);
     font-size: var(--24px);
     padding-top: 4rem;
+}
+
+.upcoming-events h4 {
+    padding-top: 0.3rem;
     padding-bottom: 0.5rem;
+    font-size: var(--18px);
 }
 
 .upcoming-events p {
@@ -474,7 +486,6 @@ header a:hover {
 
 .upcoming-events span {
     display: block;
-    /* text-align: center; */
     padding-bottom: 3rem;
 }
 
