@@ -248,7 +248,7 @@ header a:hover {
     color: rgb(244, 193, 99);
 }
 
-.about-us-desc-1 p + p {
+.about-us-desc-1 p + p + p {
     border-bottom: 3px dotted rgba(254, 149, 28, 0.342);
 }
 
