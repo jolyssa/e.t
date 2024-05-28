@@ -471,13 +471,16 @@ header a:hover {
     color: var(--white-bg-h3);
     font-size: var(--24px);
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 .upcoming-events h4 {
-    padding-top: 0.3rem;
+    padding-top: 1rem;
     padding-bottom: 0.5rem;
     font-size: var(--18px);
+    text-align: center;
+
 }
 
 .upcoming-events p {
@@ -487,7 +490,8 @@ header a:hover {
 
 .upcoming-events span {
     display: block;
-    padding-bottom: 3rem;
+    padding: 3rem 0 3rem 0;
+    text-align: center;
 }
 
 /* Back to Home */
