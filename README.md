@@ -1,4 +1,7 @@
 # Elephant Thoughts: Mistissini (Come Study with Us!)
+<p align="center">
+  <img width="517" alt="picture of mobile version of elephant thoughts mistissini" src="https://github.com/user-attachments/assets/9dcdbad1-5655-447c-a1af-af9e9dbbdce4">
+</p>
 
 This project was designed to increase student engagement for lunchtime and after-school study sessions on a Cree reserve in Quebec. The site provides key information about who we are, what we do, where to find us, and how to get in touch. By using flyers with QR codes around the school, we attracted students to explore the site and increased participation in our sessions.
 
