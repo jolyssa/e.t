@@ -17,7 +17,7 @@ I used HTML for structuring the content of the website, including sections for a
 Tracking the site’s metrics was also important. I implemented simple analytics to monitor how many people were visiting the site, which helped us confirm that students were indeed scanning the QR code and exploring what we had to offer. It was exciting to see this traction, which motivated us to continue our recruitment efforts.
 
 ## Optimisations:
-The project initially began as a mobile-only design since I noticed most students were constantly on their phones. I wanted to meet them where they were most likely to access the site, making it as easy and convenient as possible to learn about our services. However, I later optimised the design for desktop as well, ensuring that teachers, parents, or students using a computer could also access the site with a clean, responsive layout.
+The project initially began as a mobile-only design since I noticed most students were constantly on their phones. I wanted to meet them where they were most likely to access the site, making it as easy and convenient as possible to learn about our services. I plan to make it for desktop in the future.
 
 Additionally, I made sure the site’s key messaging was front and center, focusing on what we offer and how to get involved. To encourage more students to visit our tutoring sessions, I added small interactive features to the site, such as a weekly schedule and upcoming event highlights, which helped create more excitement about our activities. These elements made the site not only informative but also engaging, motivating students to stop by and see what we were up to in person.
 
@@ -33,6 +33,6 @@ Take a look at other examples that I have in my own portfolio:
 
 Codewars Solutions: https://github.com/jolyssa/codewars-solutions
 
-Blackjack Card Game: https://github.com/jolyssa/Blackjack-Card-Game
+Edu Resource: https://github.com/jolyssa/edu-resources
 
-Virtuoso Flow: https://mojistaticstudios.netlify.app/
+Moji Static Studios: https://github.com/jolyssa/mss-live
